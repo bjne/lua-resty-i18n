@@ -46,7 +46,7 @@ _M.new = function(directory, language, return_true)
 			end
 
 			ctx[id] = (id ~= "") and (m and v or (ctx[id] .. unescape(v)))
-		elseif v and (m == "ctx") then
+		elseif v and (m == "ctxt") then
 			c = v
 		else
 			k, c = nil
